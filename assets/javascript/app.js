@@ -70,7 +70,7 @@ var trivia = {
 
         if (!trivia.timerOn) {
             trivia.timerId = setInterval(trivia.timerRunning, 1000);
-            trivia.timerOn = true;
+            
         }
 
         var questionContent = Object.values(trivia.questions)[trivia.currentSet];
