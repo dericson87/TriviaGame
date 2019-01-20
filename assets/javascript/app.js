@@ -3,9 +3,7 @@ $(document).ready(function () {
     $("#remaining-time").hide();
     $("#start").on('click', trivia.startGame);
     $(document).on('click', '.option', trivia.guessChecker);
-    $("#song").hide();
-    var song = document.getElementById("song");
-    song.play();
+
     
 })
 
@@ -48,7 +46,7 @@ var trivia = {
     },
 
     startGame: function () {
-        trivia.gtimer = 15;
+        trivia.gtimer = 60;
         trivia.currentSet = 0;
         trivia.correct = 0;
         trivia.incorrect = 0;
