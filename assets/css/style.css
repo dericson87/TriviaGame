@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+
+    text-align: center;
+
+
+}
+
+.header {
+    color: white;
+}
+
+.jumbotron {
+    background: url("../images/msga.jpg");
+
+
+}
+
+h1 {
+    font-size: 60px;
+}
