@@ -12,10 +12,14 @@ body {
 
 .jumbotron {
     background: url("../images/msga.jpg");
-
+   
 
 }
 
 h1 {
     font-size: 60px;
+}
+.last-seconds {
+    color:red;
+    background:yellow;
 }
